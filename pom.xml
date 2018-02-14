@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project xmlns="http://maven.apache.org/POM/4.0.0">
-    <modelVersion>
-        4.0.0
-    </modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
     <groupId>org</groupId>
     <artifactId>Interconnecting-Flights</artifactId>
@@ -12,10 +10,13 @@
         <finalName>Interconnecting-Flights</finalName>
     </build>
 
-
     <dependencies>
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-
+    
 </project>
