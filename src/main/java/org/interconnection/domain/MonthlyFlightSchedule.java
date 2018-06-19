@@ -14,9 +14,9 @@ import java.util.Collection;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Schedule {
+public class MonthlyFlightSchedule {
 
-    private int month;
-    private Collection<FlightDay> days = new ArrayList();
+    private int monthNumber;
+    private Collection<DailyFlightSchedule> dailyFlightSchedules = new ArrayList();
 
 }

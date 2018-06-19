@@ -24,8 +24,8 @@ public class InterconnectionFlightController {
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    Collection<InterconnectedFlightsDto> getRoutes(@RequestParam String departure,
-                                                   @RequestParam String arrival,
+    Collection<InterconnectedFlightsDto> getRoutes(@RequestParam(name = "departureAirport") String departure,
+                                                   @RequestParam(name = "arrivalAirport") String arrival,
                                                    @RequestParam Date departureDateTime,
                                                    @RequestParam Date arrivalDateTime) {
 

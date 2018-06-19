@@ -12,7 +12,7 @@ import java.util.Collection;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class FlightDay {
-    private int dayNumber;
-    private Collection<Flight> flights = new ArrayList();
+public class DailyFlightSchedule {
+    private int dayInMonthNumber;
+    private Collection<FlightTime> flightTimes = new ArrayList();
 }

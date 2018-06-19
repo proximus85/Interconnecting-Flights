@@ -11,7 +11,7 @@ import java.time.ZonedDateTime;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Flight {
+public class FlightTime {
     private int number;
     private ZonedDateTime departureTime;
     private ZonedDateTime arrivalTime;

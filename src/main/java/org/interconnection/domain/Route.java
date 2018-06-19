@@ -15,7 +15,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Entity
-@Table(schema = "someschema")
 public class Route {
 
     @Id
